@@ -1,0 +1,61 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container
+{
+    background-color: aliceblue;
+    height: 500px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(121,119,119);
+    box-sizing: border-box;
+}
+.brand-logo
+{
+    background: url("../images/logo.jpg");
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 50%;
+}
+.brand-title
+{
+    color:rgb(27, 117, 158);
+}
+.inputs
+{
+    text-align: left;
+}
+label,input,button
+{
+    display: block;
+    width: 100%;
+    border: none;
+}
+label
+{
+    color: rgb(27, 117, 158);
+}
+input
+{
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(143,141,141);
+}
+button
+{
+    background-color: rgb(27, 117, 158);
+    padding:5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color:white;
+    cursor:pointer;
+    box-shadow: 2px 2px 5px rgb(143,141,141);
+}
